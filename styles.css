@@ -35,6 +35,16 @@ body {
     font-family: 'Times New Roman', Times, serif
 }
 
+@media (max-width: 600px) {
+    header {  /* Replace 'header' with your actual header class/id if needed */
+        padding: 20px;
+        width: 95%; /* Makes it a bit wider on small screens */
+
+    body {
+          padding-top: 120px;
+    }
+    }}
+
 .joke-container {
   position: fixed;
   top: 50%;
