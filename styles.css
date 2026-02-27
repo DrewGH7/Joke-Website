@@ -1,5 +1,18 @@
 
 header {
+    position: fixed;
+    top: 30px; /* Change to something like 20px if you want a small gap at the top */
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 85%;
+    max-width: 1000px;
+    padding: 50px;
+    box-sizing: border-box;
+
+    /* Highly Recommended */
+    z-index: 100;
+
     background-color: darkgray;
     color: white;
     padding: 20px;
